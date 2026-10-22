@@ -1,50 +1,94 @@
-# Radiance Cascades Compared to Unity’s Standard Global Illumination Methods
+# \# ✨ Radiance Cascades vs. Unity's Standard Global Illumination 💡
 
-DIGRA conference experiment setup
+# 
 
+# > Who lights up a scene better, and who does it faster? 🏁
 
+# 
 
-This repository contains the experimental materials for the paper:
+# Experimental materials for the DIGRA conference paper:
 
+# \*\*"Comparative Evaluation of Real-Time Global Illumination Methods in Unity URP"\*\*
 
+# 
 
-"Comparative Evaluation of Real-Time Global Illumination Methods in Unity URP"
+# !\[Unity](https://img.shields.io/badge/Unity-6000.2.12f1-black?logo=unity)
 
+# !\[Pipeline](https://img.shields.io/badge/Pipeline-URP-blue)
 
+# !\[License](https://img.shields.io/badge/License-MIT-green)
 
-\## Contents
+# 
 
+# \## 🔦 What is this?
 
+# 
 
-\- Raw FPS and frame time datasets
+# Real-time global illumination is what makes virtual scenes feel real: light
 
-\- Generated figures used in the paper
+# bounces, colors bleed, shadows soften. But it is expensive. 💸
 
-\- Render Video recorded for visual comparison can be seen on Youtube Playlist: https://www.youtube.com/watch?v=daDjPJyB86o&list=PLaHv1eGKS6CyZF2IG05RV7KAHvvU5-xIQ
+# 
 
+# This project puts \*\*Radiance Cascades\*\* head to head with the standard global
 
+# illumination methods in Unity URP and measures two things:
 
-\## Engine Version
+# 
 
+# \- ⚡ \*\*Performance\*\* (FPS and frame time)
 
+# \- 🎨 \*\*Visual quality\*\* (how the lighting actually looks)
 
-Unity 6000.2.12f1
+# 
 
+# \## 📦 What's inside
 
+# 
 
-\## Hardware
+# | What | Where |
 
+# |---|---|
 
+# | 📊 Raw FPS and frame time datasets | `Measured Data/` |
 
-NVIDIA RTX 4060 Laptop GPU  
+# | 📈 Figures used in the paper | included in the repository |
 
-Intel Core i7-13620H
+# | 🎬 Rendered comparison videos | \[YouTube playlist](https://www.youtube.com/watch?v=daDjPJyB86o\&list=PLaHv1eGKS6CyZF2IG05RV7KAHvvU5-xIQ) |
 
+# 
 
+# \## 🧪 Test setup
 
-\## License
+# 
 
+# | Component | Details |
 
+# |---|---|
 
-MIT
+# | 🎮 Engine | Unity 6000.2.12f1 (URP) |
+
+# | 🖥️ GPU | NVIDIA RTX 4060 Laptop GPU |
+
+# | ⚙️ CPU | Intel Core i7-13620H |
+
+# 
+
+# \## 🚀 Explore the data
+
+# 
+
+# 1\. 📥 Clone the repository.
+
+# 2\. 📂 Open the `Measured Data` folder.
+
+# 3\. 🔍 Open the datasets in any spreadsheet or data analysis tool.
+
+# 
+
+# \## 📜 License
+
+# 
+
+# MIT: use it, learn from it, build on it. 💙
 
